@@ -10,5 +10,5 @@ def factorize(n):
     return result
 
 
-for i in range(101):
+for i in range(100):
     print(i, ':', factorize(i))
