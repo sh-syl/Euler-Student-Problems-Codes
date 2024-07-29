@@ -1,14 +1,4 @@
-def factorize(n):
-    factors = []
-    i = 2
-    while n > 1:
-        while n % i == 0:
-            factors.append(i)
-            n //= i
-        i += 1
-    result = sorted(factors)  # Useless
-    return result
+from factorize import factorize
 
-
-for i in range(100):
+for i in range(0,100):
     print(i, ':', factorize(i))
